@@ -1,0 +1,70 @@
+@media only screen and (max-width: 576px) {
+    #phone {
+     width: 15rem;   /* convert to bootstrap grid syntax */ 
+    } 
+}
+@media only screen and (max-width: 868px) {
+    nav {
+     top: 50%   /* convert to bootstrap grid syntax */ 
+    } 
+}
+#phone{
+    background-color: #031D44;
+    box-shadow: 32px 32px 0px 1px rgba(225,170,32,1);
+-webkit-box-shadow: 32px 32px 0px 1px rgba(225,170,32,1);
+-moz-box-shadow: 32px 32px 0px 1px rgba(225,170,32,1);
+}
+nav{
+    position: fixed;
+    right: 3%;
+}
+h1{
+    color:#FAF9F6;
+    font-family: 'Times New Roman', Times, serif
+}
+#name{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight:300;
+}
+ul{
+list-style-type: none;
+}
+li{
+    color: #FAF9F6;
+}
+body{
+    background-color: #04395E;
+}
+a{
+    color: #E1AA20;
+}
+aside{
+    background: red;
+    position: relative;
+    height: 6rem;
+    width: 6rem;
+    border: 1px dashed white;
+    border-radius: 100%;
+}
+.area-circle{
+     background: red;
+    position: relative;
+    height: 6rem;
+    width: 6rem;
+    border: 1px dashed white;
+    border-radius: 100%;
+
+}
+.circle-link{
+    position: absolute;
+    top: 36%;
+    left: 12%;
+}
+.seperator{
+    width: 1px;
+    height:2rem;
+    border: solid 1px white;
+    position:relative;
+    left: 36%;
+}
